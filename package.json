@@ -1,0 +1,24 @@
+{
+  "name": "example-electron-chernivtsijs",
+  "version": "1.0.0",
+  "description": "First example for @ChernivtsiJS speech about Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jestersunborn/example-electron-chernivtsijs.git"
+  },
+  "author": "Jester Sunborn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jestersunborn/example-electron-chernivtsijs/issues"
+  },
+  "homepage": "https://github.com/jestersunborn/example-electron-chernivtsijs#readme",
+  "devDependencies": {
+    "electron": "^1.4.8"
+  },
+  "dependencies": {
+  }
+}
