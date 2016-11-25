@@ -4,7 +4,8 @@
   "description": "First example for @ChernivtsiJS speech about Electron.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . example-electron-chernivtsijs --platform=linux --arch=x64 --version=1.4.8 --app-version=0.0.1 --out=dist --ignore=dist --prune"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,8 @@
   },
   "homepage": "https://github.com/jestersunborn/example-electron-chernivtsijs#readme",
   "devDependencies": {
-    "electron": "^1.4.8"
+    "electron": "^1.4.8",
+    "electron-packager": "^8.3.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
